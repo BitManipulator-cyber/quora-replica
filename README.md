@@ -69,5 +69,13 @@ quora-replica/
 
 5. Modular folder structure and static file serving
 
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Aaditya Jagtap
+GitHub : https://github.com/BitManipulator-cyber
 
     
