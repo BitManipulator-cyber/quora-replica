@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: maroon;
+    margin: 30px 0 10px;
+}
+
+div {
+    background-color: #fff0f0;
+    border: 1px solid #e0cccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h3 {
+    color: #5a0e0e;
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+p {
+    color: #333;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+a {
+    color: #a90000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a[href$="/new"] {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[href$="/new"]:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    width: 60%;
+    min-height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+form[action*="_method=DELETE"] button {
+    background-color: #b92b27;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form[action*="_method=DELETE"] button:hover {
+    background-color: #8c1f1c;
+}
+
+input[type="text"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px auto;
+    display: block;
+    box-sizing: border-box;
+}
